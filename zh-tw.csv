@@ -1,0 +1,97 @@
+OVERLAYS 覆蓋層
+    ">Saving",">儲存中"
+    ">Checking for updates",">檢查更新中"
+
+
+BUTTONS 設定頁按鈕
+    "> Settings","> 設定"
+
+
+MENU ITEMS 主選單選項
+    ">Current page",">當前頁面"
+    ">Menu",">全站設定"
+    ">Files",">檔案"
+    ">Themes",">主題"
+    ">Plugins",">外掛"
+    ">Security",">安全性"
+
+
+CURRENT PAGE 當前頁面
+    ">Page title",">標題"
+    ">Page keywords",">關鍵字"
+    ">Page description",">敘述"
+    "> Delete page","> 刪除頁面"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('刪除 $1?')"
+
+
+MENU 全站設定
+    ">Website title",">網站標題"
+    ">Page to display on homepage",">以哪一頁當預設首頁"
+    "Visit page","瀏覽頁面"
+    ">visit",">瀏覽"
+    "Hide page from menu","從選單中隱藏"
+    "Add new page","新增一個新頁面"
+    "Move down","向下移動"
+    "Move up","向上移動"
+    "> Add page","> 新增頁面"
+    "> Add subpage","> 新增子頁面"
+    "Add new sub-page","新增子頁面"
+
+
+FILES 檔案
+    ">Upload",">上傳"
+    ">Delete files",">刪除檔案"
+
+
+THEMES AND PLUGINS 主題與外掛
+    "> Check for updates",">檢查更新"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('刪除 $1?')"
+    ">Active",">啟用中"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('啟用 $1?')"
+    "> Activate","> 啟用"
+    "> More info","> 更多資訊"
+    "> Install","> 安裝"
+    ">Installed version:",">已安裝的版本:"
+    ">Custom repository",">自定義模組"
+    "Enter URL to custom repository","輸入自定義模組的URL"
+    "> Add", "> 新增"
+    "> Read more about custom repositories",">閱讀更多自定義模組"
+
+
+SECURITY 安全性
+    ">Admin login URL",">管理者後台網址"
+    "Important: save your login URL to log in to your website next time:"," 很重要 : 請記住你的管理者後台網址以便下次登入使用"
+    ">Password",">密碼"
+    "Old password","舊密碼"
+    "New password","新密碼"
+    "Repeat new password","再次輸入新密碼"
+    "> Change password","> 更新密碼"
+    "> How to restore backup","> 如何恢復備份"
+    "Save confirmation popup","確認儲存彈出視窗"
+    "If this is turned on, WonderCMS will always ask you to confirm any changes you make.","如果打開此選項，每次儲存時 WonderCMS 將再次確認您所做的任何更改。"
+    ">Force HTTPS",">強制使用HTTPS"
+    "WonderCMS automatically checks for SSL, this will force to always use HTTPS.","WonderCMS 會自動檢查 SSL 設定，這將強制始終使用 HTTPS"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('您確定要打開? 如果您沒有正確設定 SSL ，這可能會破壞您的網站')"
+    "> Read more before enabling","> 啟用前詳閱更多訊息"
+    ">Backup","> 備份"
+    "> Backup website","> 下載備份"
+    ">Last 5 logins",">最近5次登入紀錄"
+
+
+STATISTICS Simple Statistics 外掛專用
+    ">Statistics",">統計"
+    ">Today",">今天"
+    ">This week",">本週"
+    ">Most popular page",">最受歡迎的頁面"
+    ">Pageviews last two weeks",">最近兩週的瀏覽量"
+    ">Sessions last two weeks",">最近兩週的Sessions"
+    ">Sessions",">Sessions"
+    ">Pageviews",">瀏覽量"
+
+
+FOOTER 設定頁的頁腳
+    ">News",">新聞"
+    ">Community",">論壇"
+    ">Docs",">說明文件"
+    ">Donate",">贊助"
+    ">Shop\/Merch",">商店"
