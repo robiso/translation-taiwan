@@ -3,11 +3,11 @@
     "plugins": {
         "translation-Taiwan": {
             "name": "Translation Taiwan",
-            "repo": "https://github.com/robiso/translation-taiwan/tree/master",
-            "zip": "https://github.com/robiso/translation-taiwan/archive/master.zip",
+            "repo": "https://github.com/robiso/translation-taiwan/tree/main",
+            "zip": "https://github.com/robiso/translation-taiwan/archive/main.zip",
             "summary": "WonderCMS 設定頁中文化",
             "version": "3.3.4",
-            "image": "https://raw.githubusercontent.com/robiso/translation-taiwan/master/preview.jpg"
+            "image": "https://raw.githubusercontent.com/robiso/translation-taiwan/main/preview.jpg"
         }
     }
 }
