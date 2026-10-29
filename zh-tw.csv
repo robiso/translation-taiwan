@@ -141,7 +141,6 @@ ALERTS
     "^Custom module not found\.$","找不到自定義模組。"
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","自定義模組 <b>$1</b> 已從<a $2>$3</a>移除。從它安裝的內容會保留，直到您自行移除。"
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","已成功將模組新增至<a $1>$2</b></a>。"
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","其餘頁面全都是私人頁面，因此新的首頁（$1）也是私人頁面：訪客在網站網址會看到 404 頁面。請到 設定 -> 全站設定 將它設為公開。"
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","私人頁面不能設為首頁：訪客在網站網址會看到 404 頁面。請先將它設為公開。"
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","無法寫入 $1。請檢查磁碟可用空間及 data 資料夾的權限；沒有任何變更。"
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","無法儲存此頁面：其上層頁面不存在。請先建立上層頁面。"
@@ -219,3 +218,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>開啟檔案選項以查看您上傳的檔案</b>"
     "^Cannot create ZIP archive\.$","無法建立 ZIP 壓縮檔。"
     "^Hide all alerts until next login$","在下次登入前隱藏所有提醒"
+    "^Make another page public first: the home page cannot be private\.$","請先將其他頁面設為公開：首頁不能是私人頁面。"
