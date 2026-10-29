@@ -22,6 +22,7 @@ CURRENT PAGE 當前頁面
     ">Page description",">敘述"
     "> Delete page","> 刪除頁面"
     "return confirm\('Delete (.*?)\?'\)","return confirm('刪除 $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""刪除 $1?"""
 
 
 MENU 全站設定
@@ -46,8 +47,10 @@ FILES 檔案
 THEMES AND PLUGINS 主題與外掛
     "> Check for updates",">檢查更新"
     "return confirm\('Remove (.*?)\?'\)","return confirm('刪除 $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""刪除 $1?"""
     ">Active",">啟用中"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('啟用 $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""啟用 $1?"""
     "> Activate","> 啟用"
     "> More info","> 更多資訊"
     "> Install","> 安裝"
