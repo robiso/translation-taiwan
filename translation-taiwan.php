@@ -48,8 +48,8 @@ $Wcms->addListener('alert', function ($args) {
         }
     }
 
-    // The core skips an alert that is already queued by comparing the English text, which a translated copy never equals; the earlier copy goes, so an alert raised twice in one request (a full disk fails every save) still shows once
-    if ($message !== $args[0] && isset($_SESSION['alert']) && is_array($_SESSION['alert'])) {
+    // A core before 3.7.0 skips an alert that is already queued by comparing the English text, which a translated copy never equals; there the earlier copy goes, so an alert raised twice in one request (a full disk fails every save) still shows once. 3.7.0 and newer compare the translated text themselves, so the queue is left alone
+    if ($message !== $args[0] && defined('VERSION') && version_compare(VERSION, '3.7.0', '<') && isset($_SESSION['alert']) && is_array($_SESSION['alert'])) {
         foreach ($_SESSION['alert'] as $class => $queued) {
             foreach ((array)$queued as $i => $alert) {
                 if (is_array($alert) && isset($alert['message']) && $alert['message'] === $message) {
